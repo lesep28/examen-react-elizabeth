@@ -1,0 +1,48 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    height: auto;
+    background-color: #00669F;
+    border-radius: 8%;
+    padding: 30px 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.formContainer button{
+    background-color: #1CD1B0;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    height: auto;   
+    margin: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20 px;
+}
+
+.formContainer label{
+    border-radius: 15px; /* Redondear los bordes */
+    box-sizing: border-box;
+    margin-top: 1%;
+    font-size: 20px;
+   
+}
+
+.formContainer input{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Redondear los bordes */
+    box-sizing: border-box;
+    margin-top: 1%;
+    padding: 4%;
+    font-size: 20px;
+   
+}
+

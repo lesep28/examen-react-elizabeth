@@ -1,20 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-import Card from "./componentes/Card";
+import './App.css'
+import Card from './componentes/Card';
+import Form from './componentes/Form';
+
 
 function App() {
    return (
-        <div className="App">
-      <h1>Carga de Estudiantes</h1>
-      <form>
-
-      </form>
-          <Card />
-        </div>
-      );
+    <>
+      <h2>  Tu superhéroe favorito!</h2>
+     
+      <Form />
+      
+    </>
+  );
   
     
 }
